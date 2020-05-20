@@ -1,0 +1,43 @@
+.LPcontainer {
+	height: 52rem;
+	width: 100%;
+	/*background-color: #F8F8FF;*/
+	background-color: #F1F3F4;
+	/*background: url('https://newcastlebeach.org/images/black-and-white-of-a-person-7.jpg');
+	background-size: cover;
+	background-attachment: fixed;*/
+}
+
+.LP {
+	height: 30rem;
+	width: 100%;
+	background-color: transparent;
+}
+
+.LPextra {
+	height: 20rem;
+	width: 100%;
+	background-color: transparent;
+}
+
+.LPtext {
+	position: absolute;
+	margin-left: 15rem;
+	margin-top: 12rem;
+	width: 500px;
+}
+
+.LPtext p {
+	font-size: 50px;
+	font-weight: 900;
+	margin: 13px;
+	color: black;
+}
+
+.colorName {
+	display: inline
+}
+
+.Joseph {
+	color: blue;
+}

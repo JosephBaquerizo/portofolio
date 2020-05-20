@@ -1,0 +1,143 @@
+.NavBar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 3rem;
+	background-color: /*#4169E1*/#512B58;
+	position: sticky;
+	top: 0;
+	z-index: 500;
+	/*border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: grey; */
+}
+{/*#1E90FF*/}
+{/*#2c3e50*/}
+
+.Options {
+	margin-right: 3rem;
+}
+
+.active {
+	transition: 1s;
+	border-style: solid;
+	border-color: white;
+	border-width: 2px;
+	border-radius: 5px;
+	background-color: white;
+	color: #512B58;
+	padding: 3px;	
+}
+
+ul {
+	display: inline;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	display: inline;
+}
+
+a {
+	margin-right: 40px;
+	text-decoration: none;
+	color: white;
+	cursor: pointer;
+	border-width: 0px;
+}
+
+.ContactBtn {
+	margin-right: 0;
+}
+
+
+.Logo p {
+	padding-left: 0rem;
+	padding-right: 1rem;
+	padding-top: 0rem;
+	padding-bottom: 0rem;
+	color: white;
+	padding: 5px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: white;
+}
+
+.Logo {
+	margin-left: 3rem;
+}
+
+.selec:not(.active):hover {
+	color: /*#6495ED*/	#65587F;
+	opacity: 1;
+	transition: 0.3s;
+}
+
+
+.ContactBtn {
+	font-weight: bold;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 10px;
+	border-color: white;
+	background-color: #512B58;
+	color: white;
+	padding: 5px 7px;
+}
+
+.ContactBtn:hover {
+	border-color: white;
+	background-color: white;
+	color: #4169E1;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+@media screen and (max-width: 820px) {
+
+	body {
+		overflow-x: hidden;
+	}	
+
+	.line {
+		width: 30px;
+		height: 3px;
+		background: white;
+		margin: 5px;
+	}
+
+	.hamburger {
+		cursor: pointer;
+	}
+
+	.nav-links {
+		position: absolute;
+		right: 0px;
+		top: 3rem;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		background: #65587F;
+		height: 100vh;
+		width: 50%;
+		transform: translateX(100%);
+		transition: 0.5s;
+	}
+
+	.nav-links a {
+		margin-right: 0px;
+	}
+
+	.nav-links li {
+		margin-top: 5rem;
+	}
+
+	.nav-active {
+		transform: translateX(0%);
+		transition: 0.5s;
+	}
+
+}

@@ -1,0 +1,75 @@
+.AMcontainer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	min-height: 20rem;
+	height: auto;
+	width: 100%;
+	background-color: /*#6495ED*/#5580A0;
+}
+
+.AMbutton {
+	position: relative;	
+	font-weight: bold;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 10px;
+	border-color: #512B58;
+	background-color: white;
+	color: #512B58;
+	margin-top: 0rem;
+	padding: 7px 7px;
+}
+
+.AMbutton:hover {
+	background-color: #512B58;
+	color: white;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+
+.AMbox {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: -6rem;
+	margin-bottom: 5rem;
+	height: auto;
+	width: 70%;
+	background-color: white;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	box-shadow: 6px 6px;
+}
+
+.AMtitle {
+	position: relative;
+	margin-top: 2rem;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.AMdivTitle {
+	position: relative;
+}
+
+.AMdivText {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.AMtext {
+	position: relative;
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: center;
+	line-height: 1.8;
+}
+
+.allButton {
+	position: relative;
+	padding-bottom: 2rem;
+}

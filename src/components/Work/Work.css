@@ -1,0 +1,29 @@
+.WorkContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: auto;
+	width: 100%;
+	background-color: #F8F8FF;
+}
+
+.Separator {
+	height: 2rem;
+	width: 100%;
+	background-color: #142850;
+}
+
+.workText {
+	font-size: 40px;
+}
+
+.projectsArea {
+	height: 36rem;
+	width: 100%;
+	background-color: #F8F8FF; 
+}
+
+.space {
+	height: 3rem;
+	background-color: #F8F8FF;
+}

@@ -1,0 +1,123 @@
+.contactContainer {
+	height: 38rem;
+	width: 100%;
+	background-color: #F8F8FF;
+	display: flex;
+	justify-content: center;
+}
+
+.contactForm {
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 5rem;
+	height: 30rem;
+	width: 24rem;
+	background-color: white;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	box-shadow: 6px 6px;
+}
+
+.form {
+	width: 80%;
+}
+
+.formText {
+	border: 1px solid grey;
+	margin: 8px 0;
+	padding: 6px 18px;
+	border-radius: 8px;
+}
+
+.formText label {
+	display: block;
+	text-align: left;
+	color: #333;
+}
+
+.formText input,.formText textarea {
+	width: 100%;
+	border: none;
+	background: none;
+	outline: none;
+	margin-top: 5px;
+}
+
+.contactText {
+	font-size: 40px;
+	margin-bottom: 0px;
+}
+
+hr {
+	width: 80%;
+	height: 3px;
+	color: black;
+}
+
+.alertDiv {
+	height: 13px;
+}
+
+.alert {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-left: 20px;
+	font-size: 10px;
+	color: red;
+}
+
+.redName {
+	display: none;
+}
+
+.redEmail {
+	display: none;
+}
+
+.redMessage {
+	display: none;
+}
+
+.der {
+	display: block;
+}
+
+.btnArea {
+	display: flex;
+	justify-content: flex-end;
+	margin-top:1.5rem;
+}
+
+.submitBtn {
+	margin-right: 10px;
+}
+
+.submitBtn, .resetBtn {
+	font-weight: bold;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 10px;
+	border-color: #512B58;
+	background-color: white;
+	color: #512B58;
+	padding: 5px 7px;
+}
+
+.submitBtn:hover {
+	border-color: #512B58;
+	background-color: #512B58;
+	color: white;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.resetBtn:hover {
+	border-color: #512B58;
+	background-color: #512B58;
+	color: white;
+	cursor: pointer;
+	transition: 0.3s;
+}
