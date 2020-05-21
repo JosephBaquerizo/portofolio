@@ -110,6 +110,12 @@ a {
 		margin: 5px;
 	}
 
+	.selec:not(.active):hover {
+		color: /*#6495ED*/	white;
+		opacity: 1;
+		transition: 0.3s;
+	}
+
 	.hamburger {
 		cursor: pointer;
 	}
